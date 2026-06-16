@@ -10,7 +10,7 @@
 
 ---
 
-## 👋 Sobre mim
+## Olá a todos meus queridos 
 
 Sou finalista em **Engenharia Informática na UTAD** (2026), com foco em desenvolvimento full-stack e um interesse genuíno em **Cibersegurança e Inteligência Artificial**.
 

@@ -1,0 +1,82 @@
+<svg viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @keyframes pulse1 { 0%,100%{opacity:.06} 50%{opacity:.13} }
+      @keyframes pulse2 { 0%,100%{opacity:.05} 50%{opacity:.11} }
+      @keyframes glow   { 0%,100%{filter:drop-shadow(0 0 8px #6C63FF) drop-shadow(0 0 24px rgba(108,99,255,.5))} 50%{filter:drop-shadow(0 0 16px #00D4FF) drop-shadow(0 0 48px rgba(0,212,255,.6))} }
+      @keyframes bar    { 0%,100%{opacity:.8} 50%{opacity:1} }
+      .blob1{animation:pulse1 4s ease-in-out infinite}
+      .blob2{animation:pulse2 4s ease-in-out infinite 2s}
+      .name {animation:glow 3s ease-in-out infinite}
+      .topbar{animation:bar 2s ease-in-out infinite}
+    </style>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#050514"/>
+      <stop offset="45%" stop-color="#0d0b2a"/>
+      <stop offset="100%" stop-color="#050514"/>
+    </linearGradient>
+    <linearGradient id="nameGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#6C63FF"/>
+      <stop offset="100%" stop-color="#00D4FF"/>
+    </linearGradient>
+    <linearGradient id="lineGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#6C63FF" stop-opacity="0"/>
+      <stop offset="30%" stop-color="#6C63FF"/>
+      <stop offset="70%" stop-color="#00D4FF"/>
+      <stop offset="100%" stop-color="#00D4FF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="wave" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a0a3d" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#050514"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="300" fill="url(#bg)"/>
+
+  <!-- Subtle grid -->
+  <g opacity="0.07" stroke="#6C63FF" stroke-width="0.5">
+    <line x1="0" y1="75" x2="1200" y2="75"/>
+    <line x1="0" y1="150" x2="1200" y2="150"/>
+    <line x1="0" y1="225" x2="1200" y2="225"/>
+    <line x1="150" y1="0" x2="150" y2="300"/>
+    <line x1="300" y1="0" x2="300" y2="300"/>
+    <line x1="450" y1="0" x2="450" y2="300"/>
+    <line x1="600" y1="0" x2="600" y2="300"/>
+    <line x1="750" y1="0" x2="750" y2="300"/>
+    <line x1="900" y1="0" x2="900" y2="300"/>
+    <line x1="1050" y1="0" x2="1050" y2="300"/>
+  </g>
+
+  <!-- Glow blobs -->
+  <ellipse class="blob1" cx="180" cy="150" rx="260" ry="180" fill="#6C63FF"/>
+  <ellipse class="blob2" cx="1020" cy="150" rx="260" ry="180" fill="#00D4FF"/>
+
+  <!-- Corner brackets — cyberpunk HUD style -->
+  <path d="M0 0 L90 0 L90 5 L5 5 L5 90 L0 90 Z" fill="#6C63FF" opacity="0.7"/>
+  <path d="M1200 0 L1110 0 L1110 5 L1195 5 L1195 90 L1200 90 Z" fill="#00D4FF" opacity="0.7"/>
+  <path d="M0 300 L90 300 L90 295 L5 295 L5 210 L0 210 Z" fill="#6C63FF" opacity="0.45"/>
+  <path d="M1200 300 L1110 300 L1110 295 L1195 295 L1195 210 L1200 210 Z" fill="#00D4FF" opacity="0.45"/>
+
+  <!-- Top gradient bar -->
+  <rect class="topbar" x="0" y="0" width="1200" height="3" fill="url(#nameGrad)"/>
+
+  <!-- Main name -->
+  <text class="name" x="600" y="145"
+    font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif"
+    font-size="80" font-weight="900" fill="url(#nameGrad)"
+    text-anchor="middle" letter-spacing="-3">Adriano Ribeiro</text>
+
+  <!-- Divider -->
+  <line x1="300" y1="168" x2="900" y2="168" stroke="url(#lineGrad)" stroke-width="1.2"/>
+
+  <!-- Subtitle -->
+  <text x="600" y="200"
+    font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif"
+    font-size="15" fill="#7B7FC4" text-anchor="middle" letter-spacing="3.5">
+    FULL-STACK DEV  ·  CYBERSECURITY  ·  AI EXPLORER
+  </text>
+
+  <!-- Bottom wave shape -->
+  <path d="M0 260 Q200 240 400 260 Q600 280 800 260 Q1000 240 1200 260 L1200 300 L0 300 Z" fill="url(#wave)"/>
+</svg>

@@ -124,7 +124,7 @@ Sou finalista em **Engenharia Informática na UTAD** (2026), com foco em desenvo
 | 🛡️ **Cibersegurança** | TryHackMe · Redes e protocolos · OWASP Top 10 · Linux para segurança |
 | 🤖 **Inteligência Artificial** | Python para ML · Fundamentos de ML · LLMs · APIs Anthropic/OpenAI |
 
-> *Honestidade total — ainda estou no início destas áreas, mas são o meu objetivo profissional.*
+> *Com base sólidas de Sistemas Distribuidos e Redes, ainda estou no início destas áreas, mas são o meu objetivo profissional.*
 
 ---
 

@@ -1,6 +1,12 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=6C63FF&height=200&section=header&text=Adriano%20Ribeiro&fontSize=48&fontColor=ffffff&fontAlignY=38&desc=Engenheiro%20de%20Software%20%7C%20Porto%2C%20Portugal&descAlignY=58&descSize=16" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:050514,40:1a0a3d,70:6C63FF,100:00D4FF&height=320&section=header&text=Adriano%20Ribeiro&fontSize=68&fontColor=ffffff&fontAlignY=42&stroke=00D4FF&strokeWidth=3&desc=Full-Stack%20Dev%20%7C%20Cybersecurity%20%26%20AI%20Explorer&descAlignY=62&descSize=19&animation=twinkling" width="100%"/>
+
+<br/>
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2800&pause=900&color=00D4FF&center=true&vCenter=true&width=520&lines=%3E+Engenheiro+de+Software+%F0%9F%9A%80;%3E+Finalista+UTAD+2026+%F0%9F%8E%93;%3E+A+aprender+Ciberseguran%C3%A7a+%F0%9F%9B%A1%EF%B8%8F;%3E+A+aprender+IA+%26+Machine+Learning+%F0%9F%A4%96;%3E+Dispon%C3%ADvel+para+oportunidades+%E2%9C%85)](https://stkzinnn.github.io)
+
+<br/>
 
 [![Portfolio](https://img.shields.io/badge/🌐%20Portfolio-6C63FF?style=for-the-badge&logoColor=white)](https://stkzinnn.github.io)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/adrianoribeiro-informatic)

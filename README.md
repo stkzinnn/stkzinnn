@@ -18,11 +18,11 @@
 
 Sou finalista em **Engenharia Informática na UTAD** (2026), com foco em desenvolvimento full-stack e um interesse genuíno em **Cibersegurança e Inteligência Artificial**.
 
-- 🚴 Projeto final: **SmartBikeRoutes** — app móvel de routing ciclável inteligente com dados OSM reais, FastAPI + PostGIS + React Native
+- 🚴 Projeto final: **SmartBikeRoutes**, app móvel de routing ciclável inteligente com dados OSM reais, FastAPI + PostGIS + React Native
 - 💼 Concilio o curso com trabalho a tempo parcial na **Endesa** desde 2023
 - 🛡️ A explorar **Cibersegurança** (TryHackMe, redes, OWASP)
-- 🤖 A aprender **IA/ML** — quero passar de utilizador para construtor
-- 📍 Porto, Portugal — disponível para híbrido ou presencial
+- 🤖 A aprender **IA/ML** onde quero passar de utilizador para construtor
+- 📍 Porto, Portugal , disponível para híbrido ou presencial
 
 ---
 
@@ -76,9 +76,9 @@ Sou finalista em **Engenharia Informática na UTAD** (2026), com foco em desenvo
 > App móvel de routing ciclável inteligente com dados OSM reais de Vila Real
 
 - 📱 **React Native + TypeScript** — interface móvel com 3 perfis de ciclista
-- ⚡ **FastAPI + PostGIS + pgRouting** — routing geoespacial com algoritmo A*/Dijkstra
+- ⚡ **FastAPI + PostGIS + pgRouting**, routing geoespacial com algoritmo A*/Dijkstra
 - 🌦️ Integração com **OpenWeatherMap, OpenTopography, Nominatim, OSM**
-- 👥 Módulo social completo — feed, likes, comentários, follows, notificações
+- 👥 Módulo social completo, feed, likes, comentários, follows, notificações
 - 🔐 Autenticação **JWT** com refresh tokens
 
 [![SmartBikeRoutes](https://img.shields.io/badge/Ver_Repositório-6C63FF?style=for-the-badge&logo=github&logoColor=white)](https://github.com/stkzinnn/SmartBikeRoutes)
@@ -88,7 +88,7 @@ Sou finalista em **Engenharia Informática na UTAD** (2026), com foco em desenvo
 ### 🌐 Sistema de Monitorização Urbana
 > Rede distribuída de sensores One Health com protocolo TCP próprio
 
-- 🔌 **C# Sockets** — protocolo TCP com ACKs, heartbeat e gestão de falhas
+- 🔌 **C# Sockets**, protocolo TCP com ACKs, heartbeat e gestão de falhas
 - 🧵 Concorrência via **threads** sem deadlocks
 - 📊 **ASP.NET** dashboard web com dados em tempo real
 

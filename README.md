@@ -16,7 +16,7 @@
 
 ## Olá a todos, meus queridos 
 
-Sou finalista em **Engenharia Informática na UTAD** (2026), com foco em desenvolvimento full-stack e um interesse genuíno em **Cibersegurança e Inteligência Artificial**.
+Sou finalista em **Engenharia Informática na UTAD** (2026), com foco em desenvolvimento full-stack e um interesse genuíno em **Cibersegurança**.
 
 - 🚴 Projeto final: **SmartBikeRoutes**, app móvel de routing ciclável inteligente com dados OSM reais, FastAPI + PostGIS + React Native
 - 💼 Concilio o curso com trabalho a tempo parcial na **Endesa** desde 2023
